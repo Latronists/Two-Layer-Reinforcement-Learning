@@ -75,3 +75,10 @@ class MechanismDesigner(gym.Env):
 
   def close(self):
       pass
+
+    
+def simulate_inner_layer(mechanism_parameter,n,m):
+  from multiagent.scenrios import inner_layer
+  inner_layer_env = inner_layer.create_environment(n,m,mechanism_parameter)
+  welfare,variance = maddpg.train(inner_layer_env, time_step = 100000)
+  return welfare ,variance
