@@ -2,4 +2,4 @@
 Reinforcement Mechanism Design for Multi Agent System - Two Layer Approach
 
 
-![alt text](https://ibb.co/1721CNH)
+![Two Layer Model](https://i.ibb.co/hL8bGNp/two-layer.png)
