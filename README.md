@@ -1,11 +1,13 @@
 # Two-Layer-Reinforcement-Learning
 
 
+Two Layer Structure : Reinforcement Mechanism Design for Multi Agent System 
+
+
 ![Two Layer Model](https://i.ibb.co/hL8bGNp/two-layer.png)
 
 
 
-Two Layer Structure : Reinforcement Mechanism Design for Multi Agent System 
 
 ## Outer Layer - Mechanism Designer :
 
@@ -14,7 +16,7 @@ Two Layer Structure : Reinforcement Mechanism Design for Multi Agent System
 - Step Function is a full execution of the multi agent system (aka, inner layer)
 - Mechanism Designer evaluates its actions based on a predefined reward function
 
-### Training Outer Reinforcement Learning Problem :
+#### Training Outer Reinforcement Learning Problem :
 - Single Agent Reinforcement Learning Problem
 - Recommendation : Train using [TD3 Algorithm](https://stable-baselines.readthedocs.io/en/master/modules/td3.html) from [Stable Baseline Library](https://stable-baselines.readthedocs.io/en/master/)
 
@@ -27,7 +29,7 @@ Two Layer Structure : Reinforcement Mechanism Design for Multi Agent System
    - can become more complex by adding other elements to the game (barrier, bomb, ... )
 
 
-### Training Inner Reinforcement Learning Problem :
+#### Training Inner Reinforcement Learning Problem :
 - Multi Agent Reinforcement Learning Problem
 - Two approaches for training :
    - [MADDPG](https://github.com/openai/maddpg) : Multi Agent DDPG
